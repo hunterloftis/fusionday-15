@@ -13,13 +13,13 @@ $ npm install
 #### OSX / Linux
 
 ```
-$ export CLOUDAMQP_URL=amqp://wwncrdep:GMBZdpBXAb2ywuI4pm_KIWyRA6Bd1sB3@silver-toad.rmq.cloudamqp.com/wwncrdep
+$ export CLOUDAMQP_URL='amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw'
 ```
 
 #### Windows
 
 ```
-set CLOUDAMQP_URL=amqp://wwncrdep:GMBZdpBXAb2ywuI4pm_KIWyRA6Bd1sB3@silver-toad.rmq.cloudamqp.com/wwncrdep
+set CLOUDAMQP_URL=amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw
 ```
 
 ### Running

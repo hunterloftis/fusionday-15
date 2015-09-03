@@ -6,8 +6,14 @@ html
     h1 Fusion Day
     p #{message}
     h2 Weather
-    p #{weather || "Sorry, we're having trouble finding your weather"}
+    p #{weather || "Sorry, we're having trouble finding your weather."}
     h2 Map
-    img(src=map)
-    h2 Kitten picture
-    img(src=kitten)
+    if map
+      img(src=map)
+    else
+      p Map service is unreachable.
+    h2 Animal
+    if animal
+      img(src=animal)
+    else
+      p Cute animal service is unreachable.

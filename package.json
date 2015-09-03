@@ -6,9 +6,15 @@
   "scripts": {
     "web": "node services/web",
     "location": "node services/location",
-    "kitten": "node services/kitten",
+    "animal": "node services/animal",
     "message": "node services/message"
   },
   "author": "Hunter Loftis <hunter@hunterloftis.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3",
+    "jackrabbit": "3.0.9",
+    "jade": "^1.11.0",
+    "weather-js": "1.0.2"
+  }
 }
