@@ -33,8 +33,9 @@ $ npm run {service_name}
 For example:
 
 ```
-$ npm run web
 $ npm run location
 $ npm run animal
 $ npm run message
 ```
+
+To run the web service, use `npm start`
