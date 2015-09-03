@@ -10,21 +10,31 @@ $ cd fusionday-15
 $ npm install
 ```
 
-#### OSX / Linux
+### Running
+
+* OSX/Linux: *
 
 ```
 $ export CLOUDAMQP_URL='amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw'
 ```
 
-#### Windows
+* Windows: *
 
 ```
 set CLOUDAMQP_URL=amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw
 ```
 
-### Running
+* Both: *
 
 ```
 $ npm run {service_name}
+```
+
+For example:
+
+```
+$ npm run web
 $ npm run location
+$ npm run animal
+$ npm run message
 ```
