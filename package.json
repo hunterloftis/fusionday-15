@@ -4,13 +4,16 @@
   "description": "A microservices demo for Fusion Day",
   "main": "index.js",
   "scripts": {
-    "web": "node services/web",
+    "start": "node services/web",
     "location": "node services/location",
     "animal": "node services/animal",
     "message": "node services/message"
   },
   "author": "Hunter Loftis <hunter@hunterloftis.com>",
   "license": "MIT",
+  "engines": {
+    "node": "0.12.7"
+  },
   "dependencies": {
     "express": "4.13.3",
     "jackrabbit": "3.0.9",
