@@ -44,7 +44,7 @@ broker.once('connected', function() {
 
   function getAnimal(req, res, next) {
     console.log('Requesting animal');
-    broker.publish('animal.get', { width: 600, height: 400 }, function onKitten(err, animal) {
+    broker.publish('animal.get', { width: 600, height: 300 }, function onAnimal(err, animal) {
       res.locals.animal = animal;
       next();
     });
