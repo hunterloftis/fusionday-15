@@ -1,0 +1,14 @@
+{
+  "name": "fusionday",
+  "version": "1.0.0",
+  "description": "A microservices demo for Fusion Day",
+  "main": "index.js",
+  "scripts": {
+    "web": "node services/web",
+    "location": "node services/location",
+    "kitten": "node services/kitten",
+    "message": "node services/message"
+  },
+  "author": "Hunter Loftis <hunter@hunterloftis.com>",
+  "license": "MIT"
+}
