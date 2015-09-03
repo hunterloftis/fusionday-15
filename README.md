@@ -12,19 +12,19 @@ $ npm install
 
 ### Running
 
-* OSX/Linux: *
+*OSX/Linux:*
 
 ```
 $ export CLOUDAMQP_URL='amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw'
 ```
 
-* Windows: *
+*Windows:*
 
 ```
 set CLOUDAMQP_URL=amqp://ptdbuyfw:BYgPxMlPvrvoEh6dP3oZQYaHlabgOC9B@owl.rmq.cloudamqp.com/ptdbuyfw
 ```
 
-* Both: *
+*Both:*
 
 ```
 $ npm run {service_name}
