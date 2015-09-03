@@ -15,6 +15,6 @@ broker.once('connected', function() {
 // Maybe from lorempixel? (http://lorempixel.com/400/200/animals/)
 function getAnimal(message, reply) {
   console.log('Message: animal');
-  var kittenUrl = '';
-  reply(kittenUrl);
+  var animalUrl = '';
+  reply(animalUrl);
 }
